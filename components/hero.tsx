@@ -44,7 +44,7 @@ export default function Hero() {
                             <br />
                             <div className='flex gap-4' >
                                 <div className="  tp-resizeme" data-x="378" data-y="485" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1400"> <a href="#what-we-do" className="slider-button normal scroll">Learn More</a></div>
-                                <div className="  tp-resizeme" data-x="580" data-y="485" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1400"> <a href="#portfolio" className="slider-button red scroll">Get Started</a></div>
+                                <div className="  tp-resizeme" data-x="580" data-y="485" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1400"> <a href="#contact-us" className="slider-button red scroll">Get Started</a></div>
                             </div>
                         </div>
 

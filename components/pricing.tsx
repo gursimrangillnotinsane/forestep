@@ -59,7 +59,7 @@ const pricing = () => {
                                 <li>
                                     <p>Integrated Contact Form</p>
                                 </li>
-                                <li className="grey"><a href="#" className="btn btn-default buttons">Sign Up</a></li>
+                                <li className="grey"><a href="#contact-us" className="btn btn-default buttons">Sign Up</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-3 col-md-4 col-sm-6 wow fadeInLeft  ">
@@ -85,7 +85,7 @@ const pricing = () => {
                                 <li>
                                     <p>SEO friendly</p>
                                 </li>
-                                <li className="grey"><a href="#" className="btn btn-default buttons">Sign Up</a></li>
+                                <li className="grey"><a href="#contact-us" className="btn btn-default buttons">Sign Up</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-3 col-md-4 col-sm-6 wow fadeInRight  ">
@@ -111,7 +111,7 @@ const pricing = () => {
                                 <li>
                                     <p>App Integration</p>
                                 </li>
-                                <li className="grey"><a href="#" className="btn btn-default buttons">Sign Up</a></li>
+                                <li className="grey"><a href="#contact-us" className="btn btn-default buttons">Sign Up</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-3  col-md-12 col-sm-6 wow fadeInRight  ">
@@ -137,7 +137,7 @@ const pricing = () => {
                                 <li>
                                     <p>Complete deployment</p>
                                 </li>
-                                <li className="grey"><a href="#" className="btn btn-default buttons">Sign Up</a></li>
+                                <li className="grey"><a href="#contact-us" className="btn btn-default buttons">Sign Up</a></li>
                             </ul>
                         </div>
                     </div>
