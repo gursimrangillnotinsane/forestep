@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 
 const contact = () => {
@@ -9,9 +10,9 @@ const contact = () => {
                         <div className="col-xs-12  wow fadeInRight  ">
                             <h2>Contact Us</h2>
                             {/* <hr> */}
-                            <p className="text-center p-margin">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            {/* <p className="text-center p-margin">Lorem Ipsum is simply dummy text of the printing and typesetting
                                 Quisque enim dolor, mauris ac sagittis erat pulvinar leo, sed ultrices ipsum elit sed leo dolor
-                                in justo pretium et elit.</p>
+                                in justo pretium et elit.</p> */}
                         </div>
                     </div>
                     <div className="row padding-top-80">
@@ -51,7 +52,9 @@ const contact = () => {
             <div id="g-map">
                 <div className="container-fluid ">
                     <div className="row">
-                        <div id="map"></div>
+                        <div id="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.913836693772!2d-113.3930768869345!3d53.43801127220056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a01bd804ffe247%3A0xa2ec61bab621e71d!2s3317%2011%20Ave%20NW%2C%20Edmonton%2C%20AB%20T6L%202L5!5e1!3m2!1sen!2sca!4v1738913424399!5m2!1sen!2sca" width="100" height="450" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -63,16 +66,16 @@ const contact = () => {
                         <div className="col-sm-4  wow fadeInLeft   address-details">
                             <h2><span className="sr-only">header</span><i className="fa fa-volume-control-phone" aria-hidden="true"></i>
                             </h2>
-                            <p>+01 331 63 23 136</p>
+                            <p>+1(780) 993-1330</p>
                         </div>
                         <div className="col-sm-4  wow fadeInLeft   address-details">
                             <h2><span className="sr-only">header</span><i className="fa fa-map-marker" aria-hidden="true"></i></h2>
-                            <p>Unbelievable street 1/2
-                                <br />011-525 New York</p>
+                            <p>3317 11th Ave NW,<br />
+                                Edmonton AB T6T 2C5, Canada</p>
                         </div>
                         <div className="col-sm-4  wow fadeInLeft   address-details">
                             <h2><span className="sr-only">header</span><i className="fa fa-envelope" aria-hidden="true"></i></h2>
-                            <p><a href="#.">support&#64;StudioX.com</a></p>
+                            <p><a href="mailto:support@forestepinfotech.com">support@forestepinfotech.com</a></p>
                         </div>
                     </div>
                 </div>

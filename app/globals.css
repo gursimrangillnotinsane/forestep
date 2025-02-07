@@ -10,13 +10,3 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
-
-
-@media screen and (max-width: 768px) {
-
-    h2,
-    #slider1 h2.red {
-        font-size: 26px;
-    }
-
-}

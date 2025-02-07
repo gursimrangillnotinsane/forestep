@@ -5,13 +5,13 @@ const about = () => {
     const teamMembers = [
         {
             id: "tab-1",
-            name: "John Toi",
-            role: "Senior SEO Expert",
+            name: "Varinder Sandhu",
+            role: "CEO",
             image: "/images/team1.jpg",
             description:
-                "Donec sollicitudin, mauris ac sagittis bibendum, erat tortor pulvinar leo, sed ultrices ipsum elit sed leo.",
+                "As the CEO of our company, Varinder Sandhu leads our vision and strategy, ensuring that we remain at the forefront of innovation in the industry. With years of experience in business leadership, Varinder Sandhu a culture of growth, collaboration, and excellence. His focus is on driving our mission forward and making a positive impact on both our clients and team.",
             skills: [
-                { name: "WordPress", value: 72 },
+                { name: "WordPress", value: 90 },
                 { name: "Photoshop", value: 98 },
                 { name: "Marketing", value: 95 },
                 { name: "Business", value: 85 },
@@ -19,13 +19,13 @@ const about = () => {
         },
         {
             id: "tab-2",
-            name: "Jane Doe",
-            role: "Content Strategist",
+            name: "Jasspreet Shergill Sandhu",
+            role: "Senior Manager",
             image: "/images/team2.jpg",
             description:
-                "Jane specializes in content marketing and digital storytelling.",
+                "Jasspreet Shergill Sandhu, our Senior Manager, brings a wealth of experience in operations and team leadership. She ensures that projects are delivered on time and within budget while maintaining the highest standards of quality. Jasspreet's strategic thinking and dedication to team success make her an invaluable asset in overseeing day-to-day operations and client relationships",
             skills: [
-                { name: "SEO", value: 88 },
+                { name: "SEO", value: 90 },
                 { name: "Writing", value: 92 },
                 { name: "Social Media", value: 90 },
                 { name: "Marketing", value: 80 },
@@ -33,11 +33,11 @@ const about = () => {
         },
         {
             id: "tab-3",
-            name: "Mark Lee",
-            role: "Marketing Expert",
+            name: "Gursimranjot Singh Gill",
+            role: "Developer",
             image: "/images/team3.jpg",
             description:
-                "Mark has extensive experience in digital marketing and advertising strategies.",
+                "As a skilled Web Developer, Gursimranjot Singh Gill brings expertise in front-end and back-end development to create dynamic, responsive, and user-friendly websites. With a passion for coding and problem-solving, Gursimran focuses on delivering solutions that are both innovative and functional, ensuring an exceptional user experience. His commitment to continuous learning keeps him on the cutting edge of web development trends.",
             skills: [
                 { name: "Google Ads", value: 85 },
                 { name: "Analytics", value: 90 },
@@ -45,20 +45,20 @@ const about = () => {
                 { name: "Marketing", value: 89 },
             ],
         },
-        {
-            id: "tab-4",
-            name: "Alice Brown",
-            role: "Graphic Designer",
-            image: "/images/team4.jpg",
-            description:
-                "Alice is a talented designer with expertise in UI/UX and branding.",
-            skills: [
-                { name: "Illustrator", value: 90 },
-                { name: "Photoshop", value: 95 },
-                { name: "Figma", value: 85 },
-                { name: "Branding", value: 80 },
-            ],
-        },
+        // {
+        //     id: "tab-4",
+        //     name: "Alice Brown",
+        //     role: "Graphic Designer",
+        //     image: "/images/team4.jpg",
+        //     description:
+        //         "Alice is a talented designer with expertise in UI/UX and branding.",
+        //     skills: [
+        //         { name: "Illustrator", value: 90 },
+        //         { name: "Photoshop", value: 95 },
+        //         { name: "Figma", value: 85 },
+        //         { name: "Branding", value: 80 },
+        //     ],
+        // },
     ];
     const [activeTab, setActiveTab] = useState(teamMembers[0]); // Default to first member
     return (
@@ -70,9 +70,7 @@ const about = () => {
                         <div className="col-sm-12 wow fadeInRight  ">
                             <h2>What We Do</h2>
 
-                            <p className="text-center p-margin">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                Quisque enim dolor, mauris ac sagittis erat pulvinar leo, sed ultrices ipsum elit sed leo dolor
-                                in justo pretium et elit.</p>
+                            <p className="text-center p-margin">With years of experience supporting businesses across diverse industries, we provide top-tier online services that set us apart. Let us show you why we are the trusted choice for businesses worldwide.</p>
                         </div>
                     </div>
                     <div className="row margin-100-top" id="none">
@@ -81,18 +79,15 @@ const about = () => {
                                 <div className="col-xs-12 ">
                                     <div className="what-we-do-features margin-100-bottom">
                                         <h3><span><i className="fa fa-gitlab" aria-hidden="true"></i></span>Web Development</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting Donec pulvinar mi
-                                            sit amet viverra justo hendrerit.</p>
+                                        <p>Our web development team builds dynamic, responsive, and scalable websites that drive engagement and conversions. </p>
                                     </div>
                                     <div className="what-we-do-features margin-100-bottom">
                                         <h3><span><i className="fa fa-paper-plane" aria-hidden="true"></i></span>Web Designing</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting Donec pulvinar mi
-                                            sit amet viverra justo hendrerit.</p>
+                                        <p>Design is at the heart of user experience, and our design team crafts visually stunning websites that are easy to navigate and optimized for conversion.</p>
                                     </div>
                                     <div className="what-we-do-features">
                                         <h3><span><i className="fa fa-paper-plane" aria-hidden="true"></i></span>Our Misson</h3>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting Donec pulvinar mi
-                                            sit amet viverra justo hendrerit.</p>
+                                        <p>Our mission is to empower businesses through innovative digital solutions. We aim to help our clients grow by providing them with top-notch web development and design services, along with continuous support to ensure long-term success.</p>
                                     </div>
                                 </div>
                             </div>
@@ -101,8 +96,8 @@ const about = () => {
                             <div>
                                 <div>
                                     <div id="mobile-img"><img src="images/device.jpg" alt="" />
-                                        <div id="mobile-slider" className="owl-carousel owl-theme">
-                                            <div className="item"><img src="./images/IOS.png" alt="The Last of us" /></div>
+                                        <div id="mobile-slider" className="owl-carousel owl-theme bg-white flex items-center">
+                                            <div className="item "><img src="https://media1.tenor.com/m/IieZUsqoYCwAAAAC/developer.gif" alt="developer" /></div>
                                             {/* <div className="item"><img src="./images/image_8S.png" alt="GTA V" /></div>
                                             <div className="item"><img src="./images/image_A0.png" alt="Mirror Edge" /></div> */}
                                         </div>
@@ -117,22 +112,18 @@ const about = () => {
                                         <h3 className="text-right"><span className="pull-right"><i className="fa fa-calendar"
                                             aria-hidden="true"></i></span>Our
                                             Values</h3>
-                                        <p className="text-right">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                            Donec pulvinar mi sit amet viverra justo hendrerit.</p>
+                                        <p className="text-right">We prioritize the needs of our clients, delivering solutions that help them achieve their business goals.</p>
                                     </div>
                                     <div className="what-we-do-features margin-100-bottom">
                                         <h3 className="text-right"><span className="pull-right"><i className="fa fa-archive"
                                             aria-hidden="true"></i></span>Our
                                             Locations</h3>
-                                        <p className="text-right">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                            Donec pulvinar mi sit amet viverra justo hendrerit.</p>
+                                        <p className="text-right">We are located in Canada but that does not stop us to make an impact on whole world with out projects.</p>
                                     </div>
                                     <div className="what-we-do-features ">
                                         <h3 className="text-right"><span className="pull-right"><i className="fa fa-futbol-o"
-                                            aria-hidden="true"></i></span>24/7
-                                            Live Support</h3>
-                                        <p className="text-right">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                            Donec pulvinar mi sit amet viverra justo hendrerit.</p>
+                                            aria-hidden="true"></i></span>Customer Support</h3>
+                                        <p className="text-right">We are committed to providing responsive and reliable customer support. Our team is available during business hours to address any questions or issues you may have.</p>
                                     </div>
                                 </div>
                             </div>
@@ -153,6 +144,7 @@ const about = () => {
                                         <div className="icons"><i className="fa fa-pencil-square-o" aria-hidden="true"></i></div>
                                     </div>
                                     <div className="incrementalNumber numscroller" data-value="100"></div>
+                                    <h2>50+</h2>
                                     <p>Projects</p>
                                 </div>
                             </div>
@@ -164,6 +156,7 @@ const about = () => {
                                         <div className="icons"><i className="fa fa-gitlab" aria-hidden="true"></i></div>
                                     </div>
                                     <div className="incrementalNumber numscroller" data-value="102"></div>
+                                    <h2>10+</h2>
                                     <p>Total Employees</p>
                                 </div>
                             </div>
@@ -175,6 +168,7 @@ const about = () => {
                                         <div className="icons"><i className="fa fa-calendar" aria-hidden="true"></i></div>
                                     </div>
                                     <div className="incrementalNumber numscroller" data-value="12"></div>
+                                    <h2>2</h2>
                                     <p>Our Offices</p>
                                 </div>
                             </div>
@@ -186,6 +180,7 @@ const about = () => {
                                         <div className="icons"><i className="fa fa-users" aria-hidden="true"></i></div>
                                     </div>
                                     <div className="incrementalNumber numscroller" data-value="400"></div>
+                                    <h2>35+</h2>
                                     <p>Clients</p>
                                 </div>
                             </div>
@@ -197,8 +192,8 @@ const about = () => {
 
             {/* <!--Our team start --> */}
             <div id="our-team" className="padding-one">
-                <div className="container">
-                    <div className="text-center">
+                <div className="container ">
+                    <div className="text-center mb-8">
                         <h2>Our Team</h2>
                         <p>
                             Meet our skilled team of professionals dedicated to excellence in
@@ -207,7 +202,7 @@ const about = () => {
                     </div>
 
                     {/* Team Member List */}
-                    <div className="row">
+                    <div className="row flex justify-center">
                         {teamMembers.map((member) => (
                             <div
                                 key={member.id}
