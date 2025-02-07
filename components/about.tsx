@@ -271,10 +271,9 @@ const about = () => {
                     <div className="row">
                         <div className="col-xs-12  wow fadeInRight  ">
                             <h2>Company History</h2>
-                            <p className="company-p text-center">Lorem Ipsum is simply dummy text of the printing and
-                                typesetting</p>
+                            <p className="company-p text-center">Our Roadmap</p>
                             <div className="timline-year">
-                                <h3>2016</h3></div>
+                                <h3>2022</h3></div>
                             <ul className="timeline">
                                 <li className=" wow fadeInLeft  " data-wow-duration="500ms">
                                     <div className="timeline-badge"><a><i className="fa fa-circle"></i></a></div>

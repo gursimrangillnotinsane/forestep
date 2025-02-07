@@ -57,17 +57,17 @@ const prortolio = () => {
                     </div>
                     <div className="portfolio-section row margin-60-top" id="owl-demo">
                         <Swiper
-                            modules={[Navigation, Pagination, Autoplay]}
+                            modules={[Navigation, Pagination]}
 
-                            slidesPerView={3}
+                            slidesPerView={1}
                             loop={true}
                             autoplay={{ delay: 2000 }}
                             navigation
                             pagination={{ clickable: true }}
                             breakpoints={{
-                                1024: { slidesPerView: 3 },
-                                768: { slidesPerView: 2 },
-                                480: { slidesPerView: 1 },
+                                1024: { slidesPerView: 3 }, // 3 slides on desktop
+                                768: { slidesPerView: 2 },  // 2 slides on tablet
+                                480: { slidesPerView: 1 },  // 1 slide on mobile
                             }}
                         >
                             {portfolioItems.map((item, index) => (
