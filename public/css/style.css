@@ -1982,7 +1982,7 @@ display: block !important;
 }
 
 #blog-text {
-    background: url(../images/blog-text.jpg) no-repeat no-repeat fixed center;
+    /* background: url(../images/blog-text.jpg) no-repeat no-repeat fixed center; */
     -o-background-size: cover;
     background-size: cover;
     color: #ffffff;
@@ -2658,8 +2658,8 @@ ul.category li a .date {
 }
 
 .innerpage-banner {
-    background: url(../images/blog-banner.jpg) no-repeat center center / cover;
-    padding-top: 200px;
+    /* background: url(../images/blog-banner.jpg) no-repeat center center / cover; */
+    /* padding-top: 200px; */
     max-height: 440px;
     color: #1b1d1f;
 }

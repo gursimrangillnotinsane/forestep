@@ -1,7 +1,37 @@
 "use client";
-import React from 'react'
+import React, { useState } from 'react'
 
 const contact = () => {
+    const [email, setEmail] = useState('');
+    const [name, setName] = useState('');
+    const [message, setMessage] = useState('');
+    const [number, setNumber] = useState(''); // Default optionconst
+    const [sent, setSent] = useState('');
+
+    const handleSubmit = async (e: { preventDefault: () => void; }) => {
+        e.preventDefault();
+
+        const formData = { email, name, message, number };
+
+        const response = await fetch('/api/send', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+        });
+
+        if (response.ok) {
+            setSent('true');
+            setEmail('');
+            setName('');
+            setMessage('');
+            setNumber('');
+        } else {
+            setSent('false');
+        }
+    };
+
     return (
         <section id="contact-us">
             <div id="contact-form" className="padding-one">
@@ -17,7 +47,7 @@ const contact = () => {
                     </div>
                     <div className="row padding-top-80">
                         <div className="col-xs-12">
-                            <form id="form-elements" >
+                            <form id="form-elements" onSubmit={handleSubmit}>
                                 <div className="row">
                                     <div className="col-md-12 center"><div id="result"> </div> </div>
                                 </div>
@@ -25,21 +55,27 @@ const contact = () => {
                                 <div className="row">
                                     <div className="col-sm-4">
                                         <div className="form-group">
-                                            <input type="text" className="form-control" placeholder="Your Name" name="name" id="name" required /></div>
+                                            <input type="text" className="form-control" placeholder="Your Name" name="name" id="name" value={name} onChange={(e) => setName(e.target.value)} required /></div>
+
                                     </div>
                                     <div className="col-sm-4">
                                         <div className="form-group">
-                                            <input type="email" className="form-control" placeholder="Email Address" name="email" id="email" required /></div>
+                                            <input type="email" className="form-control" placeholder="Email Address" name="email" id="email" required value={email} onChange={(e) => setEmail(e.target.value)} /></div>
                                     </div>
                                     <div className="col-sm-4">
                                         <div className="form-group">
-                                            <input type="text" className="form-control" placeholder="Phone Number" name="phone" id="phone" required />
+                                            <input type="text" className="form-control" placeholder="Phone Number" name="phone" id="phone" required value={number} onChange={(e) => setNumber(e.target.value)} />
                                         </div>
                                     </div>
                                     <div className="col-xs-12">
-                                        <textarea className="form-control" rows={7} required placeholder="Message" name="message" id="message" ></textarea>
+                                        <textarea className="form-control" rows={7} required placeholder="Message" name="message" id="message" value={message} onChange={(e) => setMessage(e.target.value)} ></textarea>
+                                    </div>
+                                    <div className="col-xs-12 mt-8">
+                                        {sent === 'true' && <p className='text-green-600 bold'>Your message has been sent successfully</p>}
+                                        {sent === 'false' && <p className="text-red-500">There was an error, Please try again!</p>}
                                     </div>
                                     <button type="submit" className="btn btn-default buttons" id="submit_btn">SUBMIT</button>
+
                                 </div>
                             </form>
                         </div>

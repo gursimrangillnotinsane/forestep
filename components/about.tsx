@@ -35,7 +35,7 @@ const about = () => {
             id: "tab-3",
             name: "Gursimranjot Singh Gill",
             role: "Developer",
-            image: "/images/team3.jpg",
+            image: "/images/team3.png",
             description:
                 "As a skilled Web Developer, Gursimranjot Singh Gill brings expertise in front-end and back-end development to create dynamic, responsive, and user-friendly websites. With a passion for coding and problem-solving, Gursimran focuses on delivering solutions that are both innovative and functional, ensuring an exceptional user experience. His commitment to continuous learning keeps him on the cutting edge of web development trends.",
             skills: [
@@ -273,19 +273,18 @@ const about = () => {
                             <h2>Company History</h2>
                             <p className="company-p text-center">Our Roadmap</p>
                             <div className="timline-year">
-                                <h3>2022</h3></div>
+                                <h3>2024</h3></div>
                             <ul className="timeline">
                                 <li className=" wow fadeInLeft  " data-wow-duration="500ms">
                                     <div className="timeline-badge"><a><i className="fa fa-circle"></i></a></div>
                                     <div className="timeline-panel">
                                         <div className="timeline-heading">
-                                            <h4>Awsome post with HTML5</h4></div>
+                                            <h4>Laying the Foundation</h4></div>
                                         <div className="timeline-body">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and that typesetting Donec
-                                                pulvinar mi sit.</p>
+                                            <p>Company founded with a mission to deliver cutting-edge digital solutions</p>
                                         </div>
                                         <div className="timeline-footer">
-                                            <p>MAY 21, 2016</p>
+                                            <p>March 2024</p>
                                         </div>
                                     </div>
                                 </li>
@@ -293,13 +292,12 @@ const about = () => {
                                     <div className="timeline-badge"><a><i className="fa fa-circle invert"></i></a></div>
                                     <div className="timeline-panel">
                                         <div className="timeline-heading">
-                                            <h4>StudioX is an innovative</h4></div>
+                                            <h4>Building the Dream Team</h4></div>
                                         <div className="timeline-body">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and that typesetting Donec
-                                                pulvinar mi sit.</p>
+                                            <p>Assembled a core group of developers, designers, and project managers.</p>
                                         </div>
                                         <div className="timeline-footer">
-                                            <p>MAY 21, 2016</p>
+                                            <p>April 2024</p>
                                         </div>
                                     </div>
                                 </li>
@@ -307,13 +305,12 @@ const about = () => {
                                     <div className="timeline-badge"><a><i className="fa fa-circle"></i></a></div>
                                     <div className="timeline-panel">
                                         <div className="timeline-heading">
-                                            <h4>Digital/Design agency</h4></div>
+                                            <h4>First Major Project</h4></div>
                                         <div className="timeline-body">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and that typesetting Donec
-                                                pulvinar mi sit.</p>
+                                            <p>Developed a custom software for a local factory.</p>
                                         </div>
                                         <div className="timeline-footer">
-                                            <p>MAY 21, 2016</p>
+                                            <p>July 2024</p>
                                         </div>
                                     </div>
                                 </li>
@@ -321,32 +318,30 @@ const about = () => {
                                     <div className="timeline-badge"><a><i className="fa fa-circle invert"></i></a></div>
                                     <div className="timeline-panel">
                                         <div className="timeline-heading">
-                                            <h4>HTML5 HD video support</h4></div>
+                                            <h4>Website development</h4></div>
                                         <div className="timeline-body">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and that typesetting Donec
-                                                pulvinar mi sit.</p>
+                                            <p>Deployed 5 major websites for customers all over the world</p>
                                         </div>
                                         <div className="timeline-footer">
-                                            <p>MAY 21, 2016</p>
+                                            <p>December 2024</p>
                                         </div>
                                     </div>
                                 </li>
                                 <li className="clearfix no-float"></li>
                             </ul>
                             <div className="timline-year">
-                                <h3>2015</h3></div>
+                                <h3>2025</h3></div>
                             <ul className="timeline">
                                 <li className="wow fadeInLeft  " data-wow-duration="500ms">
                                     <div className="timeline-badge"><a><i className="fa fa-circle"></i></a></div>
                                     <div className="timeline-panel">
                                         <div className="timeline-heading">
-                                            <h4>Organized Blog to Share</h4></div>
+                                            <h4>App & Website development</h4></div>
                                         <div className="timeline-body">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and that typesetting Donec
-                                                pulvinar mi sit.</p>
+                                            <p>Made a custom app and a website for a local brand, enhancing their online presence</p>
                                         </div>
                                         <div className="timeline-footer">
-                                            <p>MAY 21, 2016</p>
+                                            <p>January 2025</p>
                                         </div>
                                     </div>
                                 </li>
@@ -354,13 +349,12 @@ const about = () => {
                                     <div className="timeline-badge"><a><i className="fa fa-circle invert"></i></a></div>
                                     <div className="timeline-panel">
                                         <div className="timeline-heading">
-                                            <h4>We Always Make Sure you</h4></div>
+                                            <h4>Growing the Team</h4></div>
                                         <div className="timeline-body">
-                                            <p>Lorem Ipsum is simply dummy text of the printing and that typesetting Donec
-                                                pulvinar mi sit.</p>
+                                            <p>Onboarded new developers to scale operations.</p>
                                         </div>
                                         <div className="timeline-footer">
-                                            <p>MAY 21, 2016</p>
+                                            <p>Feburary 2025</p>
                                         </div>
                                     </div>
                                 </li>
