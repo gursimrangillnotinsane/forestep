@@ -28,7 +28,7 @@ export default function Hero() {
                 loop={true}
                 effect={'fade'}
                 autoplay={{ delay: 5000 }}
-                modules={[Navigation, EffectFade]}
+                modules={[Navigation, EffectFade, Autoplay]}
 
             >
                 {content.map((item, index) => (
@@ -38,8 +38,8 @@ export default function Hero() {
                         </div> */}
                         <div className='mySwiper z-10'>
                             <div>
-                                <h2 className="m-0">{item.title}</h2>
-                                <h2 className="m-0 red">{item.title2}</h2>
+                                <h2 className="m-0" >{item.title}</h2>
+                                <h2 className="m-0 red" data-x="440" data-y="400" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="1000">{item.title2}</h2>
                             </div>
                             <br />
                             <div className='flex gap-4' >

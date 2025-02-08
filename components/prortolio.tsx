@@ -57,7 +57,7 @@ const prortolio = () => {
                     </div>
                     <div className="portfolio-section row margin-60-top" id="owl-demo">
                         <Swiper
-                            modules={[Navigation, Pagination]}
+                            modules={[Navigation, Pagination, Autoplay]}
 
                             slidesPerView={1}
                             loop={true}

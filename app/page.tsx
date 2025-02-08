@@ -5,6 +5,7 @@ import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
+import Loader from "@/components/loader";
 import Pricing from "@/components/pricing";
 import Prortolio from "@/components/prortolio";
 
@@ -24,6 +25,7 @@ export default function Home() {
   }, []);
   return (
     <>
+      <Loader />
       <Header />
       <Hero />
       <About />

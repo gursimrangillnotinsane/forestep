@@ -52,6 +52,12 @@ Table Of Content
     overflow: hidden;
     z-index: 1200;
     background: #ffffff;
+    transition: opacity .5s ease-in;
+}
+
+.fade-out {
+    opacity: 0;
+    pointer-events: none;
 }
 
 .cssload-loader {
@@ -359,7 +365,8 @@ h6 {
     padding: 0;
     line-height: normal;
     font-weight: 400;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: var(--font-fira-sans-condensed);
 }
 
 h2 {
@@ -382,7 +389,8 @@ h4 {
 p {
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+
     font-size: 15px;
     font-weight: 400;
     line-height: normal;
@@ -517,7 +525,7 @@ hr {
 .navbar .navbar-nav>li a {
     color: #1b1b1b;
     font-size: 14px;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
     line-height: 60px;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
@@ -635,7 +643,7 @@ hr {
 .sidenav ul>li a {
     color: #6a6a6a;
     font-size: 42px;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
     padding: 8px;
     text-align: center;
     display: inline-block;
@@ -686,13 +694,14 @@ hr {
     line-height: normal;
     font-weight: 300;
     color: #1b1b1b;
-    font-family: 'Raleway', sans-serif;
+
 }
 
 #slider1 h2.red {
     font-size: 58px;
     font-weight: 700;
     color: #f73246;
+    font-family: var(--font-domine)
 }
 
 #slider1 .slider-button {
@@ -932,7 +941,7 @@ hr {
 
 #counters p {
     font-size: 20px;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
 }
 
 /* Pricing table styling End */
@@ -3243,4 +3252,9 @@ footer ul>li>a:hover {
 iframe {
     width: 100%;
     height: 100%;
+}
+
+p,
+a {
+    font-family: var(--font-domine);
 }
