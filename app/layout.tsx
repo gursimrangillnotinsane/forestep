@@ -8,6 +8,7 @@ import "../public/css/font-awesome.css";
 import "../public/css/layers.css";
 import "../public/css/style.css";
 import "../public/css/animate.css";
+import ChatbotIframe from "@/components/chatBotFrame";
 
 const domine = Domine({
   variable: "--font-domine",
@@ -74,6 +75,7 @@ export default function RootLayout({
         className={`${domine.variable} ${firaSansCondensed.variable} antialiased`}
       >
         {children}
+        <ChatbotIframe />
       </body>
     </html>
   );
